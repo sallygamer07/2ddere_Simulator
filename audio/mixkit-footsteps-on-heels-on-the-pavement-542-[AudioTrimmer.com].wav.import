@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/mixkit-footsteps-on-heels-on-the-pavement-542-[AudioTrimmer.com].wav-edd17caab2f07d3067c8568294eec3c4.sample"
+
+[deps]
+
+source_file="res://audio/mixkit-footsteps-on-heels-on-the-pavement-542-[AudioTrimmer.com].wav"
+dest_files=[ "res://.import/mixkit-footsteps-on-heels-on-the-pavement-542-[AudioTrimmer.com].wav-edd17caab2f07d3067c8568294eec3c4.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

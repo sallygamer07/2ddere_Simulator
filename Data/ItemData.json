@@ -1,0 +1,16 @@
+{
+  "Knife": {
+    "ItemCategory": "Sword",
+    "ItemAttack": 3,
+    "ItemSpeed": 0.75,
+    "StackSize": 1,
+    "Description": "이거 들고 나섰다간 바로 발림."
+  },
+  "Axe": {
+    "ItemCategory": "Sword",
+    "ItemAttack": 14,
+    "ItemSpeed": 0.75,
+    "StackSize": 1,
+    "Description": "나무꾼이 호수에 빠트린 도끼."
+  }
+}

@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Schoolday  Yandere Simulator OST.mp3-a77c69afe6b4bdcc344ffff6837a77c9.mp3str"
+
+[deps]
+
+source_file="res://audio/Schoolday  Yandere Simulator OST.mp3"
+dest_files=[ "res://.import/Schoolday  Yandere Simulator OST.mp3-a77c69afe6b4bdcc344ffff6837a77c9.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
