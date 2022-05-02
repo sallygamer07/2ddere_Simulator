@@ -1,0 +1,50 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://mainTheme.tres" type="Theme" id=1]
+[ext_resource path="res://level/MainMenu.gd" type="Script" id=2]
+
+[node name="MainMenu" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+theme = ExtResource( 1 )
+script = ExtResource( 2 )
+
+[node name="ColorRect" type="ColorRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+color = Color( 0.992157, 0.831373, 1, 1 )
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+margin_left = 60.0
+margin_top = 404.0
+margin_right = 280.0
+margin_bottom = 546.0
+custom_constants/separation = 10
+
+[node name="NewGame" type="Button" parent="VBoxContainer"]
+margin_right = 220.0
+margin_bottom = 24.0
+text = "New Game"
+
+[node name="LoadGame" type="Button" parent="VBoxContainer"]
+margin_top = 34.0
+margin_right = 220.0
+margin_bottom = 58.0
+text = "Load Game"
+
+[node name="Settings" type="Button" parent="VBoxContainer"]
+margin_top = 68.0
+margin_right = 220.0
+margin_bottom = 92.0
+text = "settings"
+
+[node name="Quit" type="Button" parent="VBoxContainer"]
+margin_top = 102.0
+margin_right = 220.0
+margin_bottom = 126.0
+text = "quit"
+
+[connection signal="pressed" from="VBoxContainer/NewGame" to="." method="_on_NewGame_pressed"]
+[connection signal="pressed" from="VBoxContainer/LoadGame" to="." method="_on_LoadGame_pressed"]
+[connection signal="pressed" from="VBoxContainer/Settings" to="." method="_on_Settings_pressed"]
+[connection signal="pressed" from="VBoxContainer/Quit" to="." method="_on_Quit_pressed"]
