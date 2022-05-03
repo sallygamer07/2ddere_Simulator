@@ -8,7 +8,7 @@ var default_style : StyleBoxTexture = null
 var empty_style : StyleBoxTexture = null
 var selected_style : StyleBoxTexture = null
 
-var ItemClass = preload("res://player/Item.tscn")
+var ItemClass = preload("res://Player/Item.tscn")
 var item = null
 var slot_index
 var slot_type
